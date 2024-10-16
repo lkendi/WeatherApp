@@ -1,0 +1,11 @@
+/home/lkk2/ALX SE/WeatherApp/WeatherApp.Domain/bin/Debug/net8.0/WeatherApp.Domain.deps.json
+/home/lkk2/ALX SE/WeatherApp/WeatherApp.Domain/bin/Debug/net8.0/WeatherApp.Domain.dll
+/home/lkk2/ALX SE/WeatherApp/WeatherApp.Domain/bin/Debug/net8.0/WeatherApp.Domain.pdb
+/home/lkk2/ALX SE/WeatherApp/WeatherApp.Domain/obj/Debug/net8.0/WeatherApp.Domain.GeneratedMSBuildEditorConfig.editorconfig
+/home/lkk2/ALX SE/WeatherApp/WeatherApp.Domain/obj/Debug/net8.0/WeatherApp.Domain.AssemblyInfoInputs.cache
+/home/lkk2/ALX SE/WeatherApp/WeatherApp.Domain/obj/Debug/net8.0/WeatherApp.Domain.AssemblyInfo.cs
+/home/lkk2/ALX SE/WeatherApp/WeatherApp.Domain/obj/Debug/net8.0/WeatherApp.Domain.csproj.CoreCompileInputs.cache
+/home/lkk2/ALX SE/WeatherApp/WeatherApp.Domain/obj/Debug/net8.0/WeatherApp.Domain.dll
+/home/lkk2/ALX SE/WeatherApp/WeatherApp.Domain/obj/Debug/net8.0/refint/WeatherApp.Domain.dll
+/home/lkk2/ALX SE/WeatherApp/WeatherApp.Domain/obj/Debug/net8.0/WeatherApp.Domain.pdb
+/home/lkk2/ALX SE/WeatherApp/WeatherApp.Domain/obj/Debug/net8.0/ref/WeatherApp.Domain.dll

@@ -1,0 +1,250 @@
+{
+  "format": 1,
+  "restore": {
+    "/home/lkk2/ALX SE/WeatherApp/WeatherApp.MVC/WeatherApp.MVC.csproj": {}
+  },
+  "projects": {
+    "/home/lkk2/ALX SE/WeatherApp/WeatherApp.Application/WeatherApp.Application.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/lkk2/ALX SE/WeatherApp/WeatherApp.Application/WeatherApp.Application.csproj",
+        "projectName": "WeatherApp.Application",
+        "projectPath": "/home/lkk2/ALX SE/WeatherApp/WeatherApp.Application/WeatherApp.Application.csproj",
+        "packagesPath": "/home/lkk2/.nuget/packages/",
+        "outputPath": "/home/lkk2/ALX SE/WeatherApp/WeatherApp.Application/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/lkk2/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "/home/lkk2/ALX SE/WeatherApp/WeatherApp.Domain/WeatherApp.Domain.csproj": {
+                "projectPath": "/home/lkk2/ALX SE/WeatherApp/WeatherApp.Domain/WeatherApp.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[13.0.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/8.0.110/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/home/lkk2/ALX SE/WeatherApp/WeatherApp.Domain/WeatherApp.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/lkk2/ALX SE/WeatherApp/WeatherApp.Domain/WeatherApp.Domain.csproj",
+        "projectName": "WeatherApp.Domain",
+        "projectPath": "/home/lkk2/ALX SE/WeatherApp/WeatherApp.Domain/WeatherApp.Domain.csproj",
+        "packagesPath": "/home/lkk2/.nuget/packages/",
+        "outputPath": "/home/lkk2/ALX SE/WeatherApp/WeatherApp.Domain/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/lkk2/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/8.0.110/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/home/lkk2/ALX SE/WeatherApp/WeatherApp.Infrastructure/WeatherApp.Infrastructure.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/lkk2/ALX SE/WeatherApp/WeatherApp.Infrastructure/WeatherApp.Infrastructure.csproj",
+        "projectName": "WeatherApp.Infrastructure",
+        "projectPath": "/home/lkk2/ALX SE/WeatherApp/WeatherApp.Infrastructure/WeatherApp.Infrastructure.csproj",
+        "packagesPath": "/home/lkk2/.nuget/packages/",
+        "outputPath": "/home/lkk2/ALX SE/WeatherApp/WeatherApp.Infrastructure/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/lkk2/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "/home/lkk2/ALX SE/WeatherApp/WeatherApp.Application/WeatherApp.Application.csproj": {
+                "projectPath": "/home/lkk2/ALX SE/WeatherApp/WeatherApp.Application/WeatherApp.Application.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.Extensions.Http": {
+              "target": "Package",
+              "version": "[8.0.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/8.0.110/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/home/lkk2/ALX SE/WeatherApp/WeatherApp.MVC/WeatherApp.MVC.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/lkk2/ALX SE/WeatherApp/WeatherApp.MVC/WeatherApp.MVC.csproj",
+        "projectName": "WeatherApp.MVC",
+        "projectPath": "/home/lkk2/ALX SE/WeatherApp/WeatherApp.MVC/WeatherApp.MVC.csproj",
+        "packagesPath": "/home/lkk2/.nuget/packages/",
+        "outputPath": "/home/lkk2/ALX SE/WeatherApp/WeatherApp.MVC/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/lkk2/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "/home/lkk2/ALX SE/WeatherApp/WeatherApp.Application/WeatherApp.Application.csproj": {
+                "projectPath": "/home/lkk2/ALX SE/WeatherApp/WeatherApp.Application/WeatherApp.Application.csproj"
+              },
+              "/home/lkk2/ALX SE/WeatherApp/WeatherApp.Infrastructure/WeatherApp.Infrastructure.csproj": {
+                "projectPath": "/home/lkk2/ALX SE/WeatherApp/WeatherApp.Infrastructure/WeatherApp.Infrastructure.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/8.0.110/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
