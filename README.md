@@ -1,6 +1,6 @@
 # Weather App with CI/CD Pipeline
 
-## Project Overview
+## Overview
 This project is a Weather Application built using C# and following a Clean Architecture approach. The app fetches current weather and forecast data using the [OpenWeatherMap API](https://openweathermap.org/api) and displays it via an MVC-based web interface as shown below:
 
 ![app sceenshot](image.png)
