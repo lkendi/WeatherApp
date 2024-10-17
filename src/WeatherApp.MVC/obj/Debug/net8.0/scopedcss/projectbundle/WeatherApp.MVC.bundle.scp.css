@@ -1,0 +1,63 @@
+/* _content/WeatherApp.MVC/Views/Shared/_Layout.cshtml.rz.scp.css */
+/* Please see documentation at https://learn.microsoft.com/aspnet/core/client-side/bundling-and-minification
+for details on configuring this project to bundle and minify static web assets. */
+
+a[b-vf6zl3j0nz] {
+  color: #0077cc;
+}
+
+.btn-primary[b-vf6zl3j0nz] {
+  color: #fff;
+  background-color: #1b6ec2;
+  border-color: #1861ac;
+}
+
+.border-top[b-vf6zl3j0nz] {
+  border-top: 1px solid #e5e5e5;
+}
+.border-bottom[b-vf6zl3j0nz] {
+  border-bottom: 1px solid #e5e5e5;
+}
+
+.box-shadow[b-vf6zl3j0nz] {
+  box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05);
+}
+
+
+.search-bar[b-vf6zl3j0nz] {
+  background-color: white;
+  backdrop-filter: blur(10px);
+  border-radius: 50px;
+  box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
+  display: flex;
+  align-items: center;
+  width: 100%;
+  padding: 0 10px
+}
+
+.search-bar .input-group-text[b-vf6zl3j0nz] {
+  background: transparent;
+  border: none;
+  padding-left: 15px;
+  padding-right: 0;
+}
+
+.search-bar .form-control[b-vf6zl3j0nz] {
+  border: none;
+  background: transparent;
+  color: #333;
+  padding: 12px;
+  font-size: 1rem;
+}
+
+.search-bar .form-control:focus[b-vf6zl3j0nz], input:focus[b-vf6zl3j0nz]{
+  border: none;
+  outline: none;
+}
+
+.search-bar ion-icon[b-vf6zl3j0nz], .search-btn ion-icon[b-vf6zl3j0nz] {
+    color: #000;
+    font-size: 1.5rem;
+    margin: 8px 0;
+}
+

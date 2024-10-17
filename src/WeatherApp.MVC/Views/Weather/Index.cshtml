@@ -1,0 +1,49 @@
+﻿@model WeatherVM
+
+<div class="current-weather mt-4">
+    <h2 id="cityName">@Model.CityName, @Model.Country</h2>
+    <div class="weather-info px-3">
+        <div class="weather-main">
+            <img src="@Model.Icon" alt="Weather Icon" class="weather-icon" />
+            <p class="weather-description">@Model.WeatherDescription</p>
+            <p class="temperature d-flex justify-content-center align-items-center"><ion-icon class="text-center" name="thermometer-outline"></ion-icon> @Model.Temperature°C</p>
+        </div>
+        <div class="weather-stats">
+            <p><ion-icon name="cloud-outline"></ion-icon> <strong>Wind: </strong> @Model.WindSpeed km/h</p>
+            <p><ion-icon name="water-outline"></ion-icon> <strong>Humidity: </strong> @Model.Humidity%</p>
+            <p><ion-icon name="speedometer-outline"></ion-icon> <strong>Pressure: </strong> @Model.Pressure hPa</p>
+        </div>
+    </div>
+</div>
+
+<div class="day-filter mt-4 text-center">
+        <button class="btn btn-outline-light rounded-pill p-3 day-filter-btn active" onclick="filterForecast('next-5-days')">Next 5 Days</button>
+    <button class="btn btn-outline-light rounded-pill p-3 day-filter-btn" onclick="filterForecast('today')">Today</button>
+    <button class="btn btn-outline-light rounded-pill p-3 day-filter-btn" onclick="filterForecast('tomorrow')">Tomorrow</button>
+</div>
+
+<div class="forecast-grid mt-4">
+    @foreach (var forecast in Model.Forecasts)
+    {
+        if (forecast.ForecastDateTime < DateTime.Now)
+        {
+            continue;
+        }
+
+        var forecastDay = forecast.ForecastDateTime.Date == DateTime.Today ? "today"
+                : forecast.ForecastDateTime.Date == DateTime.Today.AddDays(1) ? "tomorrow"
+                                : forecast.ForecastDateTime.Date > DateTime.Today ? "next-5-days"
+                                : "";
+
+        <div class="forecast-card card text-white bg-secondary mb-3 shadow" data-day="@forecastDay">
+            <div class="card-body text-center">
+                                <h5 class="card-title mt-3">@forecast.ForecastDateTime.ToString("dddd")</h5>
+                <h5 class="card-title mt-3">@forecast.ForecastDateTime.ToShortTimeString()</h5>
+                <img src="@forecast.ForecastIcon" alt="Weather Icon" class="img-fluid weather-forecast-icon" />
+                <p class="forecast-temp"><strong>@forecast.ForecastTemperature°C</strong></p>
+                <p>@forecast.ForecastMainWeather</p>
+                <p class="text-muted small">@forecast.ForecastDescription</p>
+            </div>
+        </div>
+    }
+</div>

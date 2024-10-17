@@ -1,0 +1,54 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>WeatherApp</title>
+        <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+        <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+        <link rel="stylesheet" href="~/WeatherApp.MVC.styles.css" asp-append-version="true" />
+        <link rel="icon" href="~/images/sunny.ico" />
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    </head>
+    <body>
+
+     <header class="mt-5">
+        <div class="container">
+            <form class="d-flex justify-content-center" asp-controller="Weather" asp-action="Index" method="get">
+                <div class="input-group search-bar">
+
+                    <div class="input-group-prepend">
+                        <span class="input-group-text border-0">
+                            <ion-icon name="location-outline"></ion-icon>
+                        </span>
+                    </div>
+                    
+                    <input type="text" class="form-control" placeholder="Enter city name" aria-label="City Name" name="city" required />
+                    
+                    <div class="input-group-append">
+                        <button class="btn search-btn" type="submit">
+                            <ion-icon name="search-sharp"></ion-icon>
+                        </button>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </header>
+
+    <div class="container">
+        <main role="main" class="pb-3">
+            @RenderBody()
+        </main>
+    </div>
+
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    @await RenderSectionAsync("Scripts", required: false)
+
+    </body>
+</html>

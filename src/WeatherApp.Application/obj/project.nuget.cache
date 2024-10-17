@@ -1,0 +1,14 @@
+{
+  "version": 2,
+  "dgSpecHash": "7EHU2G5LBJ/Uu9UH47C8eOJb/1tATb8E9K+fNWF6w/WpEcIgwQb1KRwfG4qSumHTACWAJhhhPJjcueJiUNryxQ==",
+  "success": true,
+  "projectFilePath": "/home/lkk2/ALX SE/WeatherApp/src/WeatherApp.Application/WeatherApp.Application.csproj",
+  "expectedPackageFiles": [
+    "/home/lkk2/.nuget/packages/automapper/13.0.1/automapper.13.0.1.nupkg.sha512",
+    "/home/lkk2/.nuget/packages/microsoft.extensions.dependencyinjection.abstractions/6.0.0/microsoft.extensions.dependencyinjection.abstractions.6.0.0.nupkg.sha512",
+    "/home/lkk2/.nuget/packages/microsoft.extensions.options/6.0.0/microsoft.extensions.options.6.0.0.nupkg.sha512",
+    "/home/lkk2/.nuget/packages/microsoft.extensions.primitives/6.0.0/microsoft.extensions.primitives.6.0.0.nupkg.sha512",
+    "/home/lkk2/.nuget/packages/system.runtime.compilerservices.unsafe/6.0.0/system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}

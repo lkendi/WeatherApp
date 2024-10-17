@@ -1,0 +1,28 @@
+{
+  "version": 2,
+  "dgSpecHash": "kg00nu5CvAlS9ZuKkEwJ81Din+PVdXrwKcv3G+2FGgKCuiV2L8i8ONvf4KAHL1/HDjSMWsaGSv7QDw7/V/vi3g==",
+  "success": true,
+  "projectFilePath": "/home/lkk2/ALX SE/WeatherApp/src/WeatherApp.Infrastructure/WeatherApp.Infrastructure.csproj",
+  "expectedPackageFiles": [
+    "/home/lkk2/.nuget/packages/automapper/13.0.1/automapper.13.0.1.nupkg.sha512",
+    "/home/lkk2/.nuget/packages/microsoft.extensions.configuration/8.0.0/microsoft.extensions.configuration.8.0.0.nupkg.sha512",
+    "/home/lkk2/.nuget/packages/microsoft.extensions.configuration.abstractions/8.0.0/microsoft.extensions.configuration.abstractions.8.0.0.nupkg.sha512",
+    "/home/lkk2/.nuget/packages/microsoft.extensions.configuration.binder/8.0.0/microsoft.extensions.configuration.binder.8.0.0.nupkg.sha512",
+    "/home/lkk2/.nuget/packages/microsoft.extensions.configuration.fileextensions/8.0.1/microsoft.extensions.configuration.fileextensions.8.0.1.nupkg.sha512",
+    "/home/lkk2/.nuget/packages/microsoft.extensions.configuration.json/8.0.1/microsoft.extensions.configuration.json.8.0.1.nupkg.sha512",
+    "/home/lkk2/.nuget/packages/microsoft.extensions.dependencyinjection/8.0.1/microsoft.extensions.dependencyinjection.8.0.1.nupkg.sha512",
+    "/home/lkk2/.nuget/packages/microsoft.extensions.dependencyinjection.abstractions/8.0.2/microsoft.extensions.dependencyinjection.abstractions.8.0.2.nupkg.sha512",
+    "/home/lkk2/.nuget/packages/microsoft.extensions.diagnostics/8.0.1/microsoft.extensions.diagnostics.8.0.1.nupkg.sha512",
+    "/home/lkk2/.nuget/packages/microsoft.extensions.diagnostics.abstractions/8.0.1/microsoft.extensions.diagnostics.abstractions.8.0.1.nupkg.sha512",
+    "/home/lkk2/.nuget/packages/microsoft.extensions.fileproviders.abstractions/8.0.0/microsoft.extensions.fileproviders.abstractions.8.0.0.nupkg.sha512",
+    "/home/lkk2/.nuget/packages/microsoft.extensions.fileproviders.physical/8.0.0/microsoft.extensions.fileproviders.physical.8.0.0.nupkg.sha512",
+    "/home/lkk2/.nuget/packages/microsoft.extensions.filesystemglobbing/8.0.0/microsoft.extensions.filesystemglobbing.8.0.0.nupkg.sha512",
+    "/home/lkk2/.nuget/packages/microsoft.extensions.http/8.0.1/microsoft.extensions.http.8.0.1.nupkg.sha512",
+    "/home/lkk2/.nuget/packages/microsoft.extensions.logging/8.0.1/microsoft.extensions.logging.8.0.1.nupkg.sha512",
+    "/home/lkk2/.nuget/packages/microsoft.extensions.logging.abstractions/8.0.2/microsoft.extensions.logging.abstractions.8.0.2.nupkg.sha512",
+    "/home/lkk2/.nuget/packages/microsoft.extensions.options/8.0.2/microsoft.extensions.options.8.0.2.nupkg.sha512",
+    "/home/lkk2/.nuget/packages/microsoft.extensions.options.configurationextensions/8.0.0/microsoft.extensions.options.configurationextensions.8.0.0.nupkg.sha512",
+    "/home/lkk2/.nuget/packages/microsoft.extensions.primitives/8.0.0/microsoft.extensions.primitives.8.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}
