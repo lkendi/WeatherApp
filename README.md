@@ -26,7 +26,6 @@ The project is structured based on Clean Architecture principles:
 1. Clone the repository:
    ```bash
    git clone https://github.com/lkendi/WeatherApp.git
-   cd <repository-directory>
      ```
 2. Build and run the docker container
     ```bash
