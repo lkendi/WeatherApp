@@ -1,9 +1,9 @@
 # Build Folders
-*/bin/
-*/obj/
+**bin/
+**obj/
 
 # Logs
 *.log
 */logs/
 
-WeatherApp.MVC/appsettings.json
+src/WeatherApp.MVC/appsettings.json

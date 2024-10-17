@@ -47,6 +47,7 @@ The Jenkins pipeline is defined in the `Jenkinsfile`. It automates the following
 2.  Builds and tests the application.
 3.  Builds the Docker image.
 4.  Pushes the Docker image to Docker Hub (private repository).
-5.  Deploys the Docker container.
 
+
+#### Attribution
 The app icon was created by [riajulislam - Flaticon](https://www.flaticon.com/authors/riajulislam) 

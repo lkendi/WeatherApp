@@ -49,14 +49,8 @@ a[b-vf6zl3j0nz] {
   font-size: 1rem;
 }
 
-.search-bar .form-control:focus[b-vf6zl3j0nz], input:focus[b-vf6zl3j0nz]{
-  border: none;
-  outline: none;
-}
-
 .search-bar ion-icon[b-vf6zl3j0nz], .search-btn ion-icon[b-vf6zl3j0nz] {
     color: #000;
     font-size: 1.5rem;
     margin: 8px 0;
 }
-
