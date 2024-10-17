@@ -25,7 +25,7 @@ The project is structured based on Clean Architecture principles:
 ### How to Run Locally
 1. Clone the repository:
    ```bash
-   git clone https://github.com/lkendi/WeatherApp.git
+   git clone https://github.com/lkendi/WeatherApp-with-CI-CD.git
      ```
 2. Build and run the docker container
     ```bash
